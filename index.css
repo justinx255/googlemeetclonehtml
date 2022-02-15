@@ -1,0 +1,176 @@
+html {
+	background-color: #fff;
+}
+.avatar {
+	border-radius: 50%;
+	width: 4%;
+}
+.top {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 80%;
+	position: relative;
+}
+.img_logo {
+	width: 12%;
+	top: 0;
+	left: 0;
+}
+.second_div {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-end;
+	font-size: 20px;
+	color: grey;
+	align-items: center;
+}
+.second_div > div {
+	padding: 0px 12px;
+}
+.svg-dot {
+	height: 20px;
+	width: 4%;
+	fill: gray;
+	padding: 0 10px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+}
+.buttoncont {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 12%;
+	margin-right: 2%;
+}
+.buttoncont > button {
+	margin: 0 1%;
+	padding: 10px;
+}
+.button {
+	background-color: #1b66ca;
+	color: #fff;
+	height: 48px;
+}
+.join_button {
+	color: #1b66ca;
+	background-color: #fff;
+}
+.join_button:hover {
+	background-color: #1b66ca;
+	color: #fff;
+}
+
+.date {
+	padding: 0 25px;
+}
+.icons {
+	padding: 0 25px;
+	align-items: center;
+}
+.icons > span {
+	padding: 0 8px;
+}
+table {
+	margin-top: 10%;
+}
+table > tbody > tr {
+	display: flex;
+	justify-content: space-between;
+}
+.table_left {
+	margin: 0 5%;
+	width: 60%;
+}
+footer {
+	margin: 0 5%;
+}
+.gm {
+	width: 50%;
+	margin: 0 10%;
+}
+.premium {
+	width: 80%;
+	font-size: 2.75em;
+}
+.we_re {
+	width: 70%;
+	color: gray;
+	font-size: 1.2em;
+	margin-top: -30px;
+}
+.keybutton {
+	border: 1px solid #1b66ca;
+	width: 40%;
+	height: 48px;
+}
+@media (max-width: 786px) {
+	html {
+		overflow-x: hidden;
+	}
+	table > tbody > tr {
+		display: flex;
+		flex-direction: column;
+	}
+	.img_logo {
+		width: 75%;
+	}
+
+	.date {
+		padding: 0px;
+	}
+	.icons {
+		padding: 0px;
+	}
+	.icons > span {
+		padding: 0 8px;
+	}
+	.second_div {
+		font-size: 14px;
+	}
+	.second_div > div {
+		padding: 0 10px;
+	}
+	.svg-dot {
+		width: 10%;
+	}
+	.avatar {
+		width: 14%;
+	}
+	.table_left {
+		margin: 0 5%;
+		width: 90%;
+		text-align: center;
+	}
+	.premium {
+		width: 100%;
+		font-size: 3.75em;
+	}
+	.we_re {
+		width: 100%;
+	}
+	.buttoncont {
+		margin: 0 20%;
+	}
+	.buttoncont > button {
+		display: flex;
+		font-size: 1em;
+	}
+	.gm {
+		width: 60%;
+		margin: 0 20%;
+	}
+	footer {
+		font-size: 2em;
+	}
+  .keybutton {
+    border: 1px solid #1b66ca;
+    width: 60%;
+    height: 48px;
+  }
+}
